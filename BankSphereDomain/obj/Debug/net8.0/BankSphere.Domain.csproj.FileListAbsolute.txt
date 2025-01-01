@@ -1,0 +1,11 @@
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\bin\Debug\net8.0\BankSphere.Domain.deps.json
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\bin\Debug\net8.0\BankSphere.Domain.dll
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\bin\Debug\net8.0\BankSphere.Domain.pdb
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\BankSphere.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\BankSphere.Domain.AssemblyInfoInputs.cache
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\BankSphere.Domain.AssemblyInfo.cs
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\BankSphere.Domain.csproj.CoreCompileInputs.cache
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\BankSphere.Domain.dll
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\refint\BankSphere.Domain.dll
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\BankSphere.Domain.pdb
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\ref\BankSphere.Domain.dll

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "m/ZPRXjAj9d4ksNZ2+k0BaiQApiDZXqyLybYUZU24gQ=",
+  "Source": "BankSphere.Api",
+  "BasePath": "_content/BankSphere.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

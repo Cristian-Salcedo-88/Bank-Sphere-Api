@@ -1,0 +1,17 @@
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\bin\Debug\net8.0\BankSphere.Infrastructure.deps.json
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\bin\Debug\net8.0\BankSphere.Infrastructure.dll
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\bin\Debug\net8.0\BankSphere.Infrastructure.pdb
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\bin\Debug\net8.0\BankSphere.Domain.dll
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\bin\Debug\net8.0\BankSphere.Domain.pdb
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphere.Infrastructure.csproj.AssemblyReference.cache
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphere.Infrastructure.Resources.sqlstatements.resources
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphere.Infrastructure.csproj.GenerateResource.cache
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphere.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphere.Infrastructure.AssemblyInfoInputs.cache
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphere.Infrastructure.AssemblyInfo.cs
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphere.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphe.9C21BD5B.Up2Date
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphere.Infrastructure.dll
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\refint\BankSphere.Infrastructure.dll
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphere.Infrastructure.pdb
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\ref\BankSphere.Infrastructure.dll
