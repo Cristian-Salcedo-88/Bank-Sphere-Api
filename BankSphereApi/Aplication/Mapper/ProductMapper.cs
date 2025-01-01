@@ -1,6 +1,4 @@
-﻿using BankSphere.Api.Aplication.Commands.Client;
-using BankSphere.Infrastructure.Entities;
-using static Dapper.SqlMapper;
+﻿using BankSphere.Infrastructure.Entities;
 
 namespace BankSphere.Api.Aplication.Mapper
 {

@@ -64,5 +64,17 @@ namespace BankSphere.Infrastructure.Repositories.Base.SQLServer
             }
             return result;
         }
+        public async Task<IEnumerable<T>> ExecuteResultWhitoutFilter<T>(string sql)
+        {
+            IEnumerable<T> result = Enumerable.Empty<T>();
+            using (SqlConnection conn = new SqlConnection(ConnectionString))
+            {
+                conn.Open();
+                result = await conn.QueryAsync<T>(sql,
+                    commandType: CommandType.Text, commandTimeout: 120);
+                conn.Close();
+            }
+            return result;
+        }
     }
 }

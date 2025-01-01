@@ -139,6 +139,9 @@
   <data name="create_transaction" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Sql\create_transaction.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="get_clients_highest_balance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Sql\get_clients_highest_balance.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="get_client_by_id" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Sql\get_client_by_id.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>

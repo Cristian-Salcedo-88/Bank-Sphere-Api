@@ -9,3 +9,4 @@ C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\Bank
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\refint\BankSphere.Domain.dll
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\BankSphere.Domain.pdb
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\ref\BankSphere.Domain.dll
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereDomain\obj\Debug\net8.0\BankSphere.Domain.sourcelink.json

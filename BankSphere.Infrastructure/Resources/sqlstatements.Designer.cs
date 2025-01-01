@@ -194,12 +194,8 @@ namespace BankSphere.Infrastructure.Resources {
         ///    c.client_id as Id,
         ///    c.identification as IdentificationNumber, 
         ///    c.[name] AS [Name],
-        ///    p.number AS Phone,
-        ///    c.person_type as PersonType,
-        ///    bc.delegate_name AS DelegateName,
-        ///    bc.delegate_identification AS DelegateIdentificationNumber,
-        ///    bc.delegate_phone AS DelegatePhone
-        ///FROM [Client]
+        ///    c.person_type as PersonType
+        ///FROM [Client] c
         ///WHERE c.client_id = @ClientId.
         /// </summary>
         internal static string get_client_by_id {
@@ -230,6 +226,23 @@ namespace BankSphere.Infrastructure.Resources {
         internal static string get_client_by_identification {
             get {
                 return ResourceManager.GetString("get_client_by_identification", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a SELECT TOP(10)
+        ///P.[type] AS AccountType,
+        ///P.balance AS Balance,
+        ///C.[name] AS [Name],
+        ///C.identification AS IdentificationNumber
+        ///FROM [Product] P
+        ///INNER JOIN Client C 
+        ///ON P.client_id = C.client_id
+        ///ORDER BY P.balance desc.
+        /// </summary>
+        internal static string get_clients_highest_balance {
+            get {
+                return ResourceManager.GetString("get_clients_highest_balance", resourceCulture);
             }
         }
         

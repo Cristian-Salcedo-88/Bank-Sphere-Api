@@ -2,6 +2,7 @@
 using BankSphere.Infrastructure.Interfaces;
 using BankSphere.Infrastructure.Interfaces.Repositories;
 using BankSphere.Infrastructure.Repositories.Domain;
+using BankSphere.Infrastructure.Repositories.Query;
 using BankSphere.Infrastructure.Settings;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -28,6 +29,7 @@ namespace BankSphere.Infrastructure
             services.AddScoped<IQueryProductRepository, ProductRepository>();
             services.AddScoped<ITransactionRepository, TransactionRepository>();
             services.AddScoped<IAccountRepository, AccountRepository>();
+            services.AddScoped<IQueryClientsHighestBalanceRepository, QueryClientsHighestBalanceRepository>();
 
             return services;
 

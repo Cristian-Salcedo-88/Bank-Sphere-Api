@@ -83,3 +83,4 @@ C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\refint\
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\BankSphere.Api.pdb
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\BankSphere.Api.genruntimeconfig.cache
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\ref\BankSphere.Api.dll
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\BankSphere.Api.sourcelink.json

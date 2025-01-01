@@ -15,3 +15,4 @@ C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\ne
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\refint\BankSphere.Infrastructure.dll
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphere.Infrastructure.pdb
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\ref\BankSphere.Infrastructure.dll
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphere.Infrastructure\obj\Debug\net8.0\BankSphere.Infrastructure.sourcelink.json
