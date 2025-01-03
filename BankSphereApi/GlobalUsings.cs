@@ -1,0 +1,9 @@
+﻿global using Microsoft.AspNetCore.Mvc;
+global using MediatR;
+global using Newtonsoft.Json;
+global using BankSphere.Api.Aplication.DTOs;
+global using BankSphere.Api.Aplication.Models;
+global using BankSphere.Api.Aplication.Models.Clients;
+global using BankSphere.Api.Aplication.Commands;
+global using BankSphere.Domain.AggregatesModel.Client;
+global using BankSphere.Domain.Interfaces;
