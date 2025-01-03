@@ -1,18 +1,18 @@
-# Proyecto Básico en .NET con Conexión a SQL Server
+# Proyecto web APi en .NET con Conexión a SQL Server
 
-Este proyecto es una aplicación básica en .NET que se conecta a una base de datos SQL Server. Incluye instrucciones detalladas para configurarlo y ejecutarlo en otro equipo.
+Este proyecto es una aplicacion web Api en .NET que se conecta a una base de datos SQL Server. A continuación adjunto los pasos para ejecutarla
 
 ## Requisitos previos
 
 Asegúrate de cumplir con los siguientes requisitos antes de ejecutar el proyecto:
 
 1. **Herramientas necesarias:**
-   - .NET SDK (versión 6.0 o superior).
-   - SQL Server (local o remoto).
+   - .NET SDK (versión 8.0).
+   - SQL Server.
    - Visual Studio o cualquier editor de texto con soporte para .NET.
 
 2. **Base de datos:**
-   - Un archivo de script SQL (por ejemplo, `database.sql`) que contiene la estructura y los datos iniciales de la base de datos.
+   - Se adjunta al correo script de base de datos.
 
 ## Configuración del proyecto
 
@@ -28,27 +28,23 @@ Asegúrate de cumplir con los siguientes requisitos antes de ejecutar el proyect
    ```
 
 3. **Configurar la cadena de conexión:**
-   - Abre el archivo `appsettings.json`.
-   - Actualiza el valor de `ConnectionStrings.DefaultConnection` con los datos de tu SQL Server local. Ejemplo:
+   - Abre el archivo `BankSphereApi/appsettings.Development.json`.
+   - Actualiza el valor de `SqlServerSettings.ConnectionStrings.SqlServer` con los datos de tu SQL Server local. Ejemplo:
      ```json
-     "ConnectionStrings": {
-         "SqlServer": "Server=(localdb)\\MSSQLLocalDB;Database=MI_BASE_DE_DATOS;Trusted_Connection=True;"
-     }
+     "SqlServerSettings": {
+        "ConnectionStrings": {
+            "SqlServer": Server=(localdb)\\MSSQLLocalDB;Database=MI_BASE_DE_DATOS;Trusted_Connection=True;
+        }
      ```
 
 4. **Crear la base de datos:**
    - Usa el script SQL proporcionado para crear la base de datos y poblarla con los datos iniciales:
-     ```bash
-     sqlcmd -S (localdb)\\MSSQLLocalDB -i database.sql
-     ```
-     (Si no tienes `sqlcmd` instalado, puedes ejecutar el script directamente desde una herramienta como SQL Server Management Studio o Azure Data Studio).
+     ejecuta el archivo proporcionado en SQL Server Management Studio para crear la base de datos del proyecto.
 
 ## Ejecutar el proyecto
 
 1. **Compilar y ejecutar la aplicación:**
-   ```bash
-   dotnet run
-   ```
+   ejecuta el proyecto webApi 
 
 2. **Acceder a la aplicación:**
-   - Para esta API, utiliza herramientas como Postman o tu navegador para acceder a la ruta de SWAGGER https://localhost:7295/swagger/index.html.
+   - Para esta API, utiliza herramientas como Postman o tu navegador para acceder a la ruta de Swagger https://localhost:7295/swagger/index.html.
