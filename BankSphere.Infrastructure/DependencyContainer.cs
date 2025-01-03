@@ -30,6 +30,7 @@ namespace BankSphere.Infrastructure
             services.AddScoped<ITransactionRepository, TransactionRepository>();
             services.AddScoped<IAccountRepository, AccountRepository>();
             services.AddScoped<IQueryClientsHighestBalanceRepository, QueryClientsHighestBalanceRepository>();
+            services.AddScoped<IQueryAverageBalanceByTypeRepository, QueryAverageBalanceByTypeRepository>();
 
             return services;
 

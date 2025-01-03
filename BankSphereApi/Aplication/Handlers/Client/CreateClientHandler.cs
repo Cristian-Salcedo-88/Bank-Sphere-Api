@@ -4,7 +4,7 @@ using BankSphere.Infrastructure.Interfaces.Repositories;
 
 namespace BankSphere.Api.Aplication.Handlers.Client
 {
-    public class CreateClientHandler : IRequestHandler<CreateClientCommand, ClientResponseDto>
+    public class CreateClientHandler : IRequestHandler<CreateClientCommand, GeneralResponseDto>
     {
         private readonly IClientRepository _clientRepository;
         private readonly IBusinessClientRepository _businessClientRepository;
@@ -20,7 +20,7 @@ namespace BankSphere.Api.Aplication.Handlers.Client
             _queryClientRepository = queryClientRepository;
         }
 
-        public async Task<ClientResponseDto> Handle(CreateClientCommand request, CancellationToken cancellationToken)
+        public async Task<GeneralResponseDto> Handle(CreateClientCommand request, CancellationToken cancellationToken)
         {
 
             ClientEntity client = await _queryClientRepository.GetClientByIdentificationAsync(request.Body.IdentificationNumber);
@@ -51,7 +51,7 @@ namespace BankSphere.Api.Aplication.Handlers.Client
                     await _businessClientRepository.CreateBusinessClient(clientId, clientDomainEntity.BusinessClient);
                 }
 
-                return new ClientResponseDto()
+                return new GeneralResponseDto()
                 {
                     Response = "Usuario Creado correctamente"
                 };

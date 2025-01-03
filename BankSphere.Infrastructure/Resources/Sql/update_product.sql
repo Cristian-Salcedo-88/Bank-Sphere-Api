@@ -3,4 +3,4 @@ SET
 balance = @Balance,
 active = @Active
 WHERE 
-product_id = @ProducId;
+product_id = @ProductId;

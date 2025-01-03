@@ -139,6 +139,9 @@
   <data name="create_transaction" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Sql\create_transaction.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="get_average_balance_by_type" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Sql\get_average_balance_by_type.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="get_clients_highest_balance" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Sql\get_clients_highest_balance.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -148,8 +151,11 @@
   <data name="get_client_by_identification" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Sql\get_client_by_identification.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="get_product_by_client" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Sql\get_product_by_client.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="get_product_by_client_id" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Sql\get_product_by_client_id.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="get_product_by_filters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Sql\get_product_by_filters.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="get_product_by_id" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Sql\get_product_by_id.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>

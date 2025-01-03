@@ -35,17 +35,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ClientResponseDto"
+                  "$ref": "#/components/schemas/GeneralResponseDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ClientResponseDto"
+                  "$ref": "#/components/schemas/GeneralResponseDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ClientResponseDto"
+                  "$ref": "#/components/schemas/GeneralResponseDto"
                 }
               }
             }
@@ -381,7 +381,7 @@
         }
       }
     },
-    "/api/v1/Reporter": {
+    "/api/v1/Reporter/ClientsHighestBalance": {
       "get": {
         "tags": [
           "Reporter"
@@ -459,7 +459,85 @@
         }
       }
     },
-    "/api/v1/Transaction/Transaction": {
+    "/api/v1/Reporter/AverageBalanceByType": {
+      "get": {
+        "tags": [
+          "Reporter"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AverageBalanceByTypeDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AverageBalanceByTypeDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AverageBalanceByTypeDto"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/NotFoundException"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NotFoundException"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NotFoundException"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BadRequestResponseDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BadRequestResponseDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BadRequestResponseDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/Transaction": {
       "post": {
         "tags": [
           "Transaction"
@@ -616,6 +694,20 @@
         },
         "additionalProperties": false
       },
+      "AverageBalanceByTypeDto": {
+        "type": "object",
+        "properties": {
+          "accountType": {
+            "type": "string",
+            "nullable": true
+          },
+          "averageBalance": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "BadRequestResponseDTO": {
         "type": "object",
         "properties": {
@@ -720,16 +812,6 @@
           },
           "businessClient": {
             "$ref": "#/components/schemas/BusinessClientCommand"
-          }
-        },
-        "additionalProperties": false
-      },
-      "ClientResponseDto": {
-        "type": "object",
-        "properties": {
-          "response": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1192,6 +1274,16 @@
           },
           "fieldHandle": {
             "$ref": "#/components/schemas/RuntimeFieldHandle"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GeneralResponseDto": {
+        "type": "object",
+        "properties": {
+          "response": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

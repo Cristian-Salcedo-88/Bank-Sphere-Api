@@ -3,73 +3,121 @@
   "WorkspaceRootPath": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\get_clients_highest_balance.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\handlers\\reporter\\getgetaveragebalancebytypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\handlers\\reporter\\getgetaveragebalancebytypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\repositories\\query\\queryaveragebalancebytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\repositories\\domain\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\get_average_balance_by_type.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\controllers\\reportercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:controllers\\reportercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\queries\\getclientshighestbalancequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\queries\\getclientshighestbalancequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\handlers\\reporter\\getclientshighestbalancehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\handlers\\reporter\\getclientshighestbalancehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\repositories\\query\\queryclientshighestbalancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\mapper\\clientshighestbalancemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\mapper\\clientshighestbalancemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\mapper\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\mapper\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\repositories\\base\\sqlserver\\sqlserverbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sqlstatements.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\get_clients_highest_balance.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\entities\\clientshighestbalanceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\dtos\\clientshighestbalancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\dtos\\clientshighestbalancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\get_product_by_client.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\interfaces\\repositories\\iqueryclientshighestbalancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\repositories\\domain\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\interfaces\\repositories\\iqueryproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\handlers\\product\\getproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\handlers\\product\\getproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\handlers\\product\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\handlers\\product\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\handlers\\product\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\handlers\\product\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\models\\reporter\\queryclientshighestbalancemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\models\\reporter\\queryclientshighestbalancemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\commands\\product\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\commands\\product\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\get_product_by_client.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\repositories\\domain\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\create_saving_account.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\create_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\commands\\product\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\commands\\product\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\get_product_by_filters.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\interfaces\\repositories\\iqueryproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\get_product_by_client_id.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\handlers\\product\\getproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\handlers\\product\\getproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\update_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sqlstatements.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\handlers\\transaction\\createtransactionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\handlers\\transaction\\createtransactionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\handlers\\client\\createclienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\handlers\\client\\createclienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\dtos\\generalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\dtos\\generalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphereapi\\aplication\\handlers\\reporter\\getclientshighestbalancehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C07F15A-AFA7-438A-9CCF-023D04EF07FF}|BankSphere.Api.csproj|solutionrelative:aplication\\handlers\\reporter\\getclientshighestbalancehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\update_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\get_product_by_client_id.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\create_product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\get_product_by_filters.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\create_saving_account.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\get_average_balance_by_type.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7063294B-CC40-4642-B038-63DD1FFE724D}|..\\BankSphere.Infrastructure\\BankSphere.Infrastructure.csproj|c:\\proyectos\\prurebatecnica\\banksphereapi\\banksphere.infrastructure\\resources\\sql\\get_clients_highest_balance.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
@@ -91,246 +139,351 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DependencyContainer.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\DependencyContainer.cs",
-              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\DependencyContainer.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\DependencyContainer.cs",
-              "RelativeToolTip": "..\\BankSphere.Infrastructure\\DependencyContainer.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAxwB8AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:51:41.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QueryClientsHighestBalanceRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Query\\QueryClientsHighestBalanceRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Repositories\\Query\\QueryClientsHighestBalanceRepository.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Query\\QueryClientsHighestBalanceRepository.cs",
-              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Repositories\\Query\\QueryClientsHighestBalanceRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:18:35.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetclientsHighestBalanceHandler.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Reporter\\GetclientsHighestBalanceHandler.cs",
-              "RelativeDocumentMoniker": "Aplication\\Handlers\\Reporter\\GetclientsHighestBalanceHandler.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Reporter\\GetclientsHighestBalanceHandler.cs",
-              "RelativeToolTip": "Aplication\\Handlers\\Reporter\\GetclientsHighestBalanceHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T02:51:56.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReporterController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Controllers\\ReporterController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReporterController.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Controllers\\ReporterController.cs",
-              "RelativeToolTip": "Controllers\\ReporterController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAawBgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T05:10:59.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetClientsHighestBalanceQuery.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Queries\\GetClientsHighestBalanceQuery.cs",
-              "RelativeDocumentMoniker": "Aplication\\Queries\\GetClientsHighestBalanceQuery.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Queries\\GetClientsHighestBalanceQuery.cs",
-              "RelativeToolTip": "Aplication\\Queries\\GetClientsHighestBalanceQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T02:25:52.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClientsHighestBalanceMapper.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Mapper\\ClientsHighestBalanceMapper.cs",
-              "RelativeDocumentMoniker": "Aplication\\Mapper\\ClientsHighestBalanceMapper.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Mapper\\ClientsHighestBalanceMapper.cs",
-              "RelativeToolTip": "Aplication\\Mapper\\ClientsHighestBalanceMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:36:11.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductMapper.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Mapper\\ProductMapper.cs",
-              "RelativeDocumentMoniker": "Aplication\\Mapper\\ProductMapper.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Mapper\\ProductMapper.cs",
-              "RelativeToolTip": "Aplication\\Mapper\\ProductMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:36:16.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SqlServerBase.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Base\\SQLServer\\SqlServerBase.cs",
-              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Repositories\\Base\\SQLServer\\SqlServerBase.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Base\\SQLServer\\SqlServerBase.cs",
-              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Repositories\\Base\\SQLServer\\SqlServerBase.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAYwEIAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:34:36.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "sqlstatements.resx",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\sqlstatements.resx",
-              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Resources\\sqlstatements.resx",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\sqlstatements.resx",
-              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Resources\\sqlstatements.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-01-01T03:31:51.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "get_clients_highest_balance.sql ",
               "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\get_clients_highest_balance.sql",
               "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Resources\\Sql\\get_clients_highest_balance.sql",
               "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\get_clients_highest_balance.sql",
               "RelativeToolTip": "..\\BankSphere.Infrastructure\\Resources\\Sql\\get_clients_highest_balance.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-01-01T03:31:25.154Z",
+              "WhenOpened": "2025-01-03T00:03:28.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "get_product_by_client.sql ",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_client.sql",
-              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_client.sql",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_client.sql",
-              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_client.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-01-01T03:22:31.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClientsHighestBalanceEntity.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Entities\\ClientsHighestBalanceEntity.cs",
-              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Entities\\ClientsHighestBalanceEntity.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Entities\\ClientsHighestBalanceEntity.cs",
-              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Entities\\ClientsHighestBalanceEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Controllers\\TransactionController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowB8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:14:00.891Z",
+              "WhenOpened": "2025-01-02T22:09:35.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ClientsHighestBalanceDto.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\DTOs\\ClientsHighestBalanceDto.cs",
-              "RelativeDocumentMoniker": "Aplication\\DTOs\\ClientsHighestBalanceDto.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\DTOs\\ClientsHighestBalanceDto.cs",
-              "RelativeToolTip": "Aplication\\DTOs\\ClientsHighestBalanceDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Domain\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Repositories\\Domain\\ProductRepository.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Domain\\ProductRepository.cs",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Repositories\\Domain\\ProductRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAnwBcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T01:35:58.617Z",
+              "WhenOpened": "2025-01-02T19:22:40.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Domain\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Repositories\\Domain\\AccountRepository.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Domain\\AccountRepository.cs",
-              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Repositories\\Domain\\AccountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:19:26.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IQueryProductRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryProductRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryProductRepository.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryProductRepository.cs",
-              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:17:46.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IQueryClientsHighestBalanceRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryClientsHighestBalanceRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryClientsHighestBalanceRepository.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryClientsHighestBalanceRepository.cs",
-              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryClientsHighestBalanceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:12:12.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GetProductHandler.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Product\\GetProductHandler.cs",
-              "RelativeDocumentMoniker": "Aplication\\Handlers\\Product\\GetProductHandler.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Product\\GetProductHandler.cs",
-              "RelativeToolTip": "Aplication\\Handlers\\Product\\GetProductHandler.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T02:52:05.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 9,
               "Title": "CreateProductHandler.cs",
               "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Product\\CreateProductHandler.cs",
               "RelativeDocumentMoniker": "Aplication\\Handlers\\Product\\CreateProductHandler.cs",
               "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Product\\CreateProductHandler.cs",
               "RelativeToolTip": "Aplication\\Handlers\\Product\\CreateProductHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowCcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:07:21.424Z",
+              "WhenOpened": "2025-01-02T01:32:43.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetGetAverageBalanceByTypeHandler.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Reporter\\GetGetAverageBalanceByTypeHandler.cs",
+              "RelativeDocumentMoniker": "Aplication\\Handlers\\Reporter\\GetGetAverageBalanceByTypeHandler.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Reporter\\GetGetAverageBalanceByTypeHandler.cs",
+              "RelativeToolTip": "Aplication\\Handlers\\Reporter\\GetGetAverageBalanceByTypeHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T01:16:10.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QueryAverageBalanceByTypeRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Query\\QueryAverageBalanceByTypeRepository.cs",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Repositories\\Query\\QueryAverageBalanceByTypeRepository.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Query\\QueryAverageBalanceByTypeRepository.cs",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Repositories\\Query\\QueryAverageBalanceByTypeRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBwAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:43:36.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "get_average_balance_by_type.sql ",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\get_average_balance_by_type.sql",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Resources\\Sql\\get_average_balance_by_type.sql",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\get_average_balance_by_type.sql",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Resources\\Sql\\get_average_balance_by_type.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-02T23:45:09.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReporterController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Controllers\\ReporterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReporterController.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Controllers\\ReporterController.cs",
+              "RelativeToolTip": "Controllers\\ReporterController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwB8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T01:16:18.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T01:29:03.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateProductHandler.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Product\\UpdateProductHandler.cs",
+              "RelativeDocumentMoniker": "Aplication\\Handlers\\Product\\UpdateProductHandler.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Product\\UpdateProductHandler.cs",
+              "RelativeToolTip": "Aplication\\Handlers\\Product\\UpdateProductHandler.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwDYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T22:12:21.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateProductCommand.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Commands\\Product\\UpdateProductCommand.cs",
+              "RelativeDocumentMoniker": "Aplication\\Commands\\Product\\UpdateProductCommand.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Commands\\Product\\UpdateProductCommand.cs",
+              "RelativeToolTip": "Aplication\\Commands\\Product\\UpdateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:33:27.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Domain\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Repositories\\Domain\\AccountRepository.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Repositories\\Domain\\AccountRepository.cs",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Repositories\\Domain\\AccountRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA9wDYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:23:34.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "create_product.sql ",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\create_product.sql",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Resources\\Sql\\create_product.sql",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\create_product.sql",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Resources\\Sql\\create_product.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-02T19:23:06.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "create_saving_account.sql ",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\create_saving_account.sql",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Resources\\Sql\\create_saving_account.sql",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\create_saving_account.sql",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Resources\\Sql\\create_saving_account.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-02T23:23:46.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "get_product_by_filters.sql ",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_filters.sql",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_filters.sql",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_filters.sql",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_filters.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-02T20:20:11.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Commands\\Product\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "Aplication\\Commands\\Product\\CreateProductCommand.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Commands\\Product\\CreateProductCommand.cs",
+              "RelativeToolTip": "Aplication\\Commands\\Product\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T20:43:46.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IQueryProductRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryProductRepository.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryProductRepository.cs",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Interfaces\\Repositories\\IQueryProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T20:19:05.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "get_product_by_client_id.sql ",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_client_id.sql",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_client_id.sql",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_client_id.sql",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Resources\\Sql\\get_product_by_client_id.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-02T20:26:05.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "QueryClientsHighestBalanceModel.cs",
-              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Models\\Reporter\\QueryClientsHighestBalanceModel.cs",
-              "RelativeDocumentMoniker": "Aplication\\Models\\Reporter\\QueryClientsHighestBalanceModel.cs",
-              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Models\\Reporter\\QueryClientsHighestBalanceModel.cs",
-              "RelativeToolTip": "Aplication\\Models\\Reporter\\QueryClientsHighestBalanceModel.cs",
+              "Title": "GetProductHandler.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Product\\GetProductHandler.cs",
+              "RelativeDocumentMoniker": "Aplication\\Handlers\\Product\\GetProductHandler.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Product\\GetProductHandler.cs",
+              "RelativeToolTip": "Aplication\\Handlers\\Product\\GetProductHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswB0AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T01:32:43.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "sqlstatements.resx",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\sqlstatements.resx",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Resources\\sqlstatements.resx",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\sqlstatements.resx",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Resources\\sqlstatements.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-01-02T20:30:37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GeneralResponseDto.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\DTOs\\GeneralResponseDto.cs",
+              "RelativeDocumentMoniker": "Aplication\\DTOs\\GeneralResponseDto.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\DTOs\\GeneralResponseDto.cs",
+              "RelativeToolTip": "Aplication\\DTOs\\GeneralResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T20:42:50.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "update_product.sql ",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\update_product.sql",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\Resources\\Sql\\update_product.sql",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\Resources\\Sql\\update_product.sql",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\Resources\\Sql\\update_product.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-02T22:28:17.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateTransactionHandler.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Transaction\\CreateTransactionHandler.cs",
+              "RelativeDocumentMoniker": "Aplication\\Handlers\\Transaction\\CreateTransactionHandler.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Transaction\\CreateTransactionHandler.cs",
+              "RelativeToolTip": "Aplication\\Handlers\\Transaction\\CreateTransactionHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T22:12:06.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateClientHandler.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Client\\CreateClientHandler.cs",
+              "RelativeDocumentMoniker": "Aplication\\Handlers\\Client\\CreateClientHandler.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Client\\CreateClientHandler.cs",
+              "RelativeToolTip": "Aplication\\Handlers\\Client\\CreateClientHandler.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T20:42:28.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Controllers\\ClientController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T20:42:00.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Aplication\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "Aplication\\DTOs\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T01:38:02.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T20:41:49.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DependencyContainer.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\DependencyContainer.cs",
+              "RelativeDocumentMoniker": "..\\BankSphere.Infrastructure\\DependencyContainer.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphere.Infrastructure\\DependencyContainer.cs",
+              "RelativeToolTip": "..\\BankSphere.Infrastructure\\DependencyContainer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T01:16:50.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetClientsHighestBalanceHandler.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Reporter\\GetClientsHighestBalanceHandler.cs",
+              "RelativeDocumentMoniker": "Aplication\\Handlers\\Reporter\\GetClientsHighestBalanceHandler.cs",
+              "ToolTip": "C:\\Proyectos\\PrurebaTecnica\\BankSphereApi\\BankSphereApi\\Aplication\\Handlers\\Reporter\\GetClientsHighestBalanceHandler.cs",
+              "RelativeToolTip": "Aplication\\Handlers\\Reporter\\GetClientsHighestBalanceHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T01:16:07.24Z"
             }
           ]
         }

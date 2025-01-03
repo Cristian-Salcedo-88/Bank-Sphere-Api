@@ -4,9 +4,9 @@ namespace BankSphere.Api.Aplication.Mapper
 {
     public static class ClientsHighestBalanceMapper
     {
-            public static IEnumerable<ClientsHighestBalanceDto> ToClientsHighestBalanceDTO(IEnumerable<ClientsHighestBalanceEntity> clientsHighestBalanceEntity)
+            public static IEnumerable<ClientsHighestBalanceDto> ToClientsHighestBalanceDto(IEnumerable<ClientsHighestBalanceEntity> clientsHighestBalanceEntity)
             {
-                IEnumerable<ClientsHighestBalanceDto> productDto = (from entity in clientsHighestBalanceEntity
+                IEnumerable<ClientsHighestBalanceDto> clientsDto = (from entity in clientsHighestBalanceEntity
                                                       select new ClientsHighestBalanceDto()
                                                       {
                                                           IdentificationNumber = entity.IdentificationNumber,
@@ -14,7 +14,7 @@ namespace BankSphere.Api.Aplication.Mapper
                                                           AccountType = entity.AccountType,
                                                           Balance = entity.Balance
                                                       });
-                return productDto;
+                return clientsDto;
             }
     }
 }

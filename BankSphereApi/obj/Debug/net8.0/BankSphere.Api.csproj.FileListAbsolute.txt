@@ -66,6 +66,7 @@ C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\BankSph
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\BankSphere.Api.csproj.CoreCompileInputs.cache
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\BankSphere.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\BankSphere.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\BankSphere.Api.sourcelink.json
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\scopedcss\bundle\BankSphere.Api.styles.css
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\staticwebassets.development.json
@@ -83,4 +84,3 @@ C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\refint\
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\BankSphere.Api.pdb
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\BankSphere.Api.genruntimeconfig.cache
 C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\ref\BankSphere.Api.dll
-C:\Proyectos\PrurebaTecnica\BankSphereApi\BankSphereApi\obj\Debug\net8.0\BankSphere.Api.sourcelink.json

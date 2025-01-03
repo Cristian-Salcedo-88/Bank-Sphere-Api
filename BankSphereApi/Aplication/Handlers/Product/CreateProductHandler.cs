@@ -1,11 +1,12 @@
-﻿using BankSphere.Api.Aplication.Commands.Product;
+﻿using Azure;
+using BankSphere.Api.Aplication.Commands.Product;
 using BankSphere.Domain.AggregatesModel.Product;
 using BankSphere.Infrastructure.Entities;
 using BankSphere.Infrastructure.Interfaces.Repositories;
 
 namespace BankSphere.Api.Aplication.Handlers.Product
 {
-    public class CreateProductHandler : IRequestHandler<CreateProductCommand, int>
+    public class CreateProductHandler : IRequestHandler<CreateProductCommand, GeneralResponseDto>
     {
         private readonly IQueryProductRepository _queryProductRepository;
         private readonly IProductRepository _productRepository;
@@ -19,11 +20,11 @@ namespace BankSphere.Api.Aplication.Handlers.Product
             _productRepository = productRepository;
             _accountRepository = accountRepository;
         }
-        public async Task<int> Handle(CreateProductCommand request, CancellationToken cancellationToken)
+        public async Task<GeneralResponseDto> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
-            IEnumerable<ProductEntity> productEntity = await _queryProductRepository.GetProductByFilters(request.Body.ClientId);
+            IEnumerable<ProductEntity> productEntity = await _queryProductRepository.GetProductByFilters(request.Body.ClientId, request.Body.AccountType);
 
-            if (productEntity == null)
+            if (!productEntity.Any())
             {
                 ProductDomainEntity productDomainEntity = new(
                     request.Body.ClientId,
@@ -35,12 +36,15 @@ namespace BankSphere.Api.Aplication.Handlers.Product
                 int productId = await _productRepository.CreateProduct(productDomainEntity);
 
                 await CreateAccount(request.Body.AccountType, productId, request.Body.InterestRate);
-
-                return productId;
+                
+                return new GeneralResponseDto()
+                {
+                    Response = "Usuario Creado correctamente"
+                };
             }
             else
             {
-                throw new Exception($"El Cliente ya contiene un producto de tipo : {request.Body.AccountType}");
+                throw new ArgumentException($"El Cliente ya contiene un producto de tipo : {request.Body.AccountType}");
             }
         }
 

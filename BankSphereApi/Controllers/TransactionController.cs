@@ -25,7 +25,7 @@ namespace BankSphere.Api.Controllers
         /// <response code="200">Ok</response>
         /// <response code="400">Bad request</response>
         /// <response code="500">Internal server error</response>
-        [HttpPost("Transaction")]
+        [HttpPost()]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(BadRequestResponseDTO))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]

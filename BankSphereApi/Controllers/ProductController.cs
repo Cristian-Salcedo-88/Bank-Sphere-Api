@@ -45,9 +45,9 @@ namespace BankSphere.Api.Controllers
                 }
             };
 
-            int statusCode = await _mediator.Send(postProductCommand);
+            GeneralResponseDto response = await _mediator.Send(postProductCommand);
 
-            return StatusCode(statusCode);
+            return Ok(response);
         }
 
         /// <summary>
@@ -89,8 +89,8 @@ namespace BankSphere.Api.Controllers
                     TransactionType = updateProductModel.TransactionType
                 }
             };
-            await _mediator.Send(Command);
-            return StatusCode(StatusCodes.Status204NoContent);
+            GeneralResponseDto response =  await _mediator.Send(Command);
+            return Ok(response);
         }
 
     }

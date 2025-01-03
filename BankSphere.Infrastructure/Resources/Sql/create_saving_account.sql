@@ -1,4 +1,6 @@
 ﻿INSERT INTO Savings_Account
-(product_id )
+(product_id, 
+interest_rate)
 VALUES 
-(@ProductId)
+(@ProductId,
+@InterestRate)

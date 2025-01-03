@@ -28,7 +28,7 @@ namespace BankSphere.Api.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(BadRequestResponseDTO))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<ClientResponseDto>> AddPlanConfiguration([FromBody] PostClientBodyRequestModel postClientBodyRequestModel)
+        public async Task<ActionResult<GeneralResponseDto>> AddPlanConfiguration([FromBody] PostClientBodyRequestModel postClientBodyRequestModel)
         {
 
             CreateClientCommand postClientCommand = new()
@@ -49,7 +49,7 @@ namespace BankSphere.Api.Controllers
                 }
             };
 
-            ClientResponseDto response = await _mediator.Send(postClientCommand);
+            GeneralResponseDto response = await _mediator.Send(postClientCommand);
 
             return Ok(response);
         }

@@ -1,4 +1,5 @@
-﻿using BankSphere.Api.Aplication.Commands.Product;
+﻿using Azure;
+using BankSphere.Api.Aplication.Commands.Product;
 using BankSphere.Domain.AggregatesModel.Product;
 using BankSphere.Infrastructure.Entities;
 using BankSphere.Infrastructure.Exceptions;
@@ -6,7 +7,7 @@ using BankSphere.Infrastructure.Interfaces.Repositories;
 
 namespace BankSphere.Api.Aplication.Handlers.Product
 {
-    public class UpdateProductHandler : IRequestHandler<UpdateProductCommand, Unit>
+    public class UpdateProductHandler : IRequestHandler<UpdateProductCommand, GeneralResponseDto>
     {
         private readonly IProductRepository _productRepository;
         private readonly IQueryProductRepository _queryProductRepository;
@@ -17,7 +18,7 @@ namespace BankSphere.Api.Aplication.Handlers.Product
             _productRepository = productRepository;
             _queryProductRepository = queryProductRepository;
         }
-        public async Task<Unit> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
+        public async Task<GeneralResponseDto> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
             ProductEntity productEntity = await _queryProductRepository.GetProductById(request.Body.ProductId);
 
@@ -26,12 +27,17 @@ namespace BankSphere.Api.Aplication.Handlers.Product
                 throw new NotFoundException($"No se encontro el producto con id {request.Body.ProductId}");
             }
 
+            if (request.Body.TransactionType == "RETIRO" && request.Body.Amount >  productEntity.Balance) 
+            {
+                throw new ArgumentException("El valor a retirar es mayor al saldo en la cuenta");
+            }
+
             bool IsCancelation = false;
 
             decimal balance = productEntity.Balance;
 
             
-            CalculateNewBalance(balance, request.Body.TransactionType, request.Body.Amount);
+            decimal newBalance = CalculateNewBalance(balance, request.Body.TransactionType, request.Body.Amount);
             
             if (request.Body.TransactionType == "CANCELACION")
             {
@@ -44,9 +50,12 @@ namespace BankSphere.Api.Aplication.Handlers.Product
                     balance
                 );
 
-            await _productRepository.UpdateProduct(productDomainEntity.Balance, request.Body.ProductId, IsCancelation);
-
-            return Unit.Value;
+            await _productRepository.UpdateProduct(newBalance, request.Body.ProductId, IsCancelation);
+           
+            return new GeneralResponseDto()
+            {
+                Response = "Usuario Creado correctamente"
+            };
         }
         private decimal CalculateNewBalance(decimal currentBalance, string transactionType, decimal? amount)
         {

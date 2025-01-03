@@ -1,7 +1,9 @@
-﻿using BankSphere.Domain.AggregatesModel.Client;
+﻿using System;
+using BankSphere.Domain.AggregatesModel.Client;
 using BankSphere.Domain.AggregatesModel.Product;
 using BankSphere.Domain.Interfaces;
 using BankSphere.Infrastructure.Entities;
+using BankSphere.Infrastructure.Exceptions;
 using BankSphere.Infrastructure.Interfaces.Repositories;
 using BankSphere.Infrastructure.Repositories.Base.SQLServer;
 using BankSphere.Infrastructure.Resources;
@@ -32,13 +34,28 @@ namespace BankSphere.Infrastructure.Repositories.Domain
             return ProductId;
         }
 
-        public async Task<IEnumerable<ProductEntity>> GetProductByFilters(int clientId)
+        public async Task<IEnumerable<ProductEntity>> GetProductByClientId(int clientId)
         {
             var parameters = new
             {
-                ClientId = clientId
+                ClientId = clientId,
+                Active = true
             };
-            string sql = sqlstatements.get_product_by_client;
+            string sql = sqlstatements.get_product_by_client_id;
+            IEnumerable<ProductEntity> productEntity = await ExecuteResult<ProductEntity>(sql, parameters);
+
+            return productEntity;
+        }
+
+        public async Task<IEnumerable<ProductEntity>> GetProductByFilters(int clientId, string accountType)
+        {
+            var parameters = new
+            {
+                ClientId = clientId,
+                AccountType = accountType,
+                Active = true
+            };
+            string sql = sqlstatements.get_product_by_filters;
             IEnumerable<ProductEntity> productEntity = await ExecuteResult<ProductEntity>(sql, parameters);
 
             return productEntity;
@@ -58,14 +75,22 @@ namespace BankSphere.Infrastructure.Repositories.Domain
 
         public async Task UpdateProduct(decimal balance, int productId, bool IsCancelation)
         {
-            var parameters = new
+            try
             {
-                Balance = balance,
-                Active = IsCancelation ? 0 : 1,
-                Product = productId,
-            };
-            string sql = sqlstatements.update_product;
-            int affectRows = await SingleUpDate(sql, parameters);
+                var parameters = new
+                {
+                    Balance = balance,
+                    Active = IsCancelation ? 0 : 1,
+                    ProductId = productId,
+                };
+                string sql = sqlstatements.update_product;
+                int affectRows = await SingleUpDate(sql, parameters);
+            }
+            catch (Exception e)
+            {
+
+                throw new InfraestructureException(e.Message);
+            }
         }
     }
 }

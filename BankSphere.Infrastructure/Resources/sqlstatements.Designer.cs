@@ -191,6 +191,23 @@ namespace BankSphere.Infrastructure.Resources {
         
         /// <summary>
         ///   Busca una cadena traducida similar a SELECT 
+        ///    [type] AS AccountType,
+        ///    AVG(balance) AS AverageBalance
+        ///FROM 
+        ///    [Product]
+        ///WHERE 
+        ///    active = @Active
+        ///GROUP BY 
+        ///    [type];.
+        /// </summary>
+        internal static string get_average_balance_by_type {
+            get {
+                return ResourceManager.GetString("get_average_balance_by_type", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a SELECT 
         ///    c.client_id as Id,
         ///    c.identification as IdentificationNumber, 
         ///    c.[name] AS [Name],
@@ -256,11 +273,29 @@ namespace BankSphere.Infrastructure.Resources {
         ///active AS Active
         ///FROM [Product] 
         ///WHERE 
-        ///client_id = @ClientId.
+        ///client_id = @ClientId .
         /// </summary>
-        internal static string get_product_by_client {
+        internal static string get_product_by_client_id {
             get {
-                return ResourceManager.GetString("get_product_by_client", resourceCulture);
+                return ResourceManager.GetString("get_product_by_client_id", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a SELECT
+        ///product_id AS ProductId,
+        ///client_id AS ClientId,
+        ///[type] AS AccountType,
+        ///balance AS Balance,
+        ///opening_date AS OpeningDate,
+        ///active AS Active
+        ///FROM [Product] 
+        ///WHERE 
+        ///client_id = @ClientId and [type] = @AccountType.
+        /// </summary>
+        internal static string get_product_by_filters {
+            get {
+                return ResourceManager.GetString("get_product_by_filters", resourceCulture);
             }
         }
         

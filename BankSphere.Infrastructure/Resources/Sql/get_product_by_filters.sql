@@ -7,4 +7,4 @@ opening_date AS OpeningDate,
 active AS Active
 FROM [Product] 
 WHERE 
-client_id = @ClientId
+client_id = @ClientId and [type] = @AccountType and active = @Active

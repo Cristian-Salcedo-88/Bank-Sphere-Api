@@ -27,7 +27,7 @@ namespace BankSphere.Api.Aplication.Handlers.Product
                 throw new NotFoundException($"No se encontro cliente asociado al id {request.Query.ClientId}");
             }
 
-            IEnumerable<ProductEntity> product = await _queryProductRepository.GetProductByFilters(request.Query.ClientId);
+            IEnumerable<ProductEntity> product = await _queryProductRepository.GetProductByClientId(request.Query.ClientId);
 
             if (product == default)
             {

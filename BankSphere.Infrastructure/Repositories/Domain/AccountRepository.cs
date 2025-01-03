@@ -1,5 +1,6 @@
 ﻿using BankSphere.Domain.Interfaces;
 using BankSphere.Infrastructure.Entities;
+using BankSphere.Infrastructure.Exceptions;
 using BankSphere.Infrastructure.Repositories.Base.SQLServer;
 using BankSphere.Infrastructure.Resources;
 using BankSphere.Infrastructure.Settings;
@@ -40,14 +41,24 @@ namespace BankSphere.Infrastructure.Repositories.Domain
 
         public async Task CreateSavingAccount(int productId)
         {
-            var parameters = new
+            try
             {
-                ProductId = productId
-            };
 
-            string sql = sqlstatements.create_saving_account;
+                var parameters = new
+                {
+                    ProductId = productId,
+                    InterestRate = 0.04
+                };
 
-            await SingleInsertWith(sql, parameters);
+                string sql = sqlstatements.create_saving_account;
+
+                await SingleInsertWith(sql, parameters);
+            }
+            catch (Exception e)
+            {
+
+                throw new InfraestructureException(e.Message);
+            }
         }
     }
 }
