@@ -18,8 +18,8 @@ Asegúrate de cumplir con los siguientes requisitos antes de ejecutar el proyect
 
 1. **Clonar el repositorio:**
    ```bash
-   https://github.com/Cristian-Salcedo-88/Bank-Sphere-Api.git
-   cd tu-repositorio
+   git clone git@github.com:Cristian-Salcedo-88/Bank-Sphere-Api.git
+   cd Bank-Sphere-Api
    ```
 
 2. **Restaurar las dependencias del proyecto:**
