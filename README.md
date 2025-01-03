@@ -18,16 +18,9 @@ Asegúrate de cumplir con los siguientes requisitos antes de ejecutar el proyect
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone git@github.com:Cristian-Salcedo-88/Bank-Sphere-Api.git
-   cd Bank-Sphere-Api
+   git clone [git@github.com:Cristian-Salcedo-88/Bank-Sphere-Api.git](https://github.com/Cristian-Salcedo-88/Bank-Sphere-Api.git)
    ```
-
-2. **Restaurar las dependencias del proyecto:**
-   ```bash
-   dotnet restore
-   ```
-
-3. **Configurar la cadena de conexión:**
+2. **Configurar la cadena de conexión:**
    - La cadena de conexión al servidor gratuito en la nube ya está configurada en el proyecto.
    - En caso de necesitar realizar una configuración local, sigue estos pasos:
      - Abre el archivo `BankSphereApi/appsettings.Development.json`.
@@ -40,7 +33,7 @@ Asegúrate de cumplir con los siguientes requisitos antes de ejecutar el proyect
        }
        ```
 
-4. **Crear la base de datos (opcional para configuración local):**
+3. **Crear la base de datos (opcional para configuración local):**
    - Usa el script SQL proporcionado para crear la base de datos:
      - Ejecuta el archivo en SQL Server Management Studio para generar la base de datos necesaria para el proyecto.
 
